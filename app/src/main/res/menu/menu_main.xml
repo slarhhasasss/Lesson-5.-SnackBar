@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.kolesnikovdmitry.lesson5basicactivity.MainActivity">
+    <item
+        android:id="@+id/menuItemSettingsActivityMain"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:iconTint="@color/icons"
+        android:title="@string/menu_item_settings_activity_main"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuItemAboutActivityMain"
+        android:orderInCategory="99"
+        android:title="@string/menu_item_about_activity_main"
+        app:showAsAction="ifRoom"/>
+</menu>
