@@ -21,6 +21,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Чтобы импортировать класс Snackbar нужно в build.gradle добавить библиотеку 
+    //implementation 'com.google.android.material:material:1.0.0' 
+    
+    
     Snackbar mSnackbar;
 
     @Override
